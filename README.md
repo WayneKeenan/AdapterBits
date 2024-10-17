@@ -6,6 +6,12 @@ A collection of adapter boards that supports connecting non-micro:bit boards to 
 - NanoBit - for the Arduino Nano Connect RP2040
 
 
+The PicoBit is available to purchase on [Tindie](https://www.tindie.com/products/wkdlabs/picobit/).
+
+The NanoBit is available to purchase on [Tindie](https://www.tindie.com/products/wkdlabs/nanobit/).
+
+
+
 # PicoBit
 
 The PicoBit adapter board for the Raspberry Pi Pico allows you to connect a Pi Pico to micro:bit accessories.
@@ -24,15 +30,6 @@ It's also possible to connect the Pico to Raspberry Pi HAT via a micro:bit to Pi
 
 - Thru-holes for i2c pullup resistors (optional)
 - Thru-holes for back powering prevention diode (optional)
-
-
-[PIC: front, highlight headers]
-
-
-[PIC: back, highlight thru-hole i2c]
-[PIC: back, highlight thru-hole diode]
-[PIC: back, highlight solder jumper]
-[PIC: back, highlight high/low]
 
 
 ## Pin Mapping
@@ -121,9 +118,4 @@ cmake ..
 make -j
 cp spi_display.uf2 /Volumes/RPI-RP2/
 ```
-
-
-### SPI Display (ST7735) - Pico SDK SPI API
-
-TODO: https://github.com/bablokb/pico-st7735
 

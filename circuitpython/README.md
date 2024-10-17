@@ -30,9 +30,7 @@ cp -r circuitpython/lib/shared/*   /Volumes/CIRCUITPY/lib/
 
 ## Examples
 
-Run from the root of the repository the scritps in each example section.
-
-Remember to put the PicoBit into bootloader mode (hold down `BOOTSEL` when powering on).
+Run from the root of the repository for each example section.
 
 ### i2c Scanner
 
@@ -133,7 +131,7 @@ Polyphonic (4 voices) sample based 'grid' music tracker demo.
 Uses:
 -    Pimoroni Pirate Audio
 -    Pimoroni Piano Hat (Framboisdorf)
--    Pimoroni HAcker Hat
+-    Pimoroni Hacker Hat
 -    4Tronix bit:2:pi
 
 ```
